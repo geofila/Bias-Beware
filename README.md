@@ -1,6 +1,6 @@
 # Bias Beware: The Impact of Cognitive Biases on LLM-Driven Product Recommendations
 
-**🎉🎉🎉 Accepted at EMNLP 2025 (Main Conference)** | [📄 Paper PDF](https://aclanthology.org/2025.emnlp-main.1140.pdf)
+**🎉🎉🎉 Accepted at EMNLP 2025 (Main Conference)** | [📄 Paper PDF](https://aclanthology.org/2025.emnlp-main.1140.pdf) 🎉🎉🎉
 
 ## Overview
 This repository hosts the implementation code for the attack and evaluation methods discussed in the research paper, "Bias Beware: The Impact of Cognitive Biases on LLM-Driven Product Recommendations."
