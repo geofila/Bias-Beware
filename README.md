@@ -1,4 +1,6 @@
-# Code for "Bias Beware: The Impact of Cognitive Biases on LLM-Driven Product Recommendations"
+# Bias Beware: The Impact of Cognitive Biases on LLM-Driven Product Recommendations
+
+**Accepted at EMNLP 2025 (Main Conference)** | [📄 Paper PDF](https://aclanthology.org/2025.emnlp-main.1140.pdf)
 
 ## Overview
 This repository hosts the implementation code for the attack and evaluation methods discussed in the research paper, "Bias Beware: The Impact of Cognitive Biases on LLM-Driven Product Recommendations."
@@ -66,4 +68,32 @@ python fig3.py
 
 ## Acknowledgment
 The datasets used in this work were obtained from [GitHub - aounon/llm-rank-optimizer](https://github.com/aounon/llm-rank-optimizer/tree/main/data) and [Hugging Face Datasets](https://huggingface.co/datasets/Studeni/AMAZON-Products-2023). Extended product descriptions used in this study are available in the data folder.
+
+## Citation
+If you use this code or find our work helpful, please cite our paper:
+
+```bibtex
+@inproceedings{filandrianos-etal-2025-bias,
+    title = "Bias Beware: The Impact of Cognitive Biases on {LLM}-Driven Product Recommendations",
+    author = "Filandrianos, Giorgos  and
+      Dimitriou, Angeliki  and
+      Lymperaiou, Maria  and
+      Thomas, Konstantinos  and
+      Stamou, Giorgos",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.1140/",
+    doi = "10.18653/v1/2025.emnlp-main.1140",
+    pages = "22408--22437",
+    ISBN = "979-8-89176-332-6",
+    abstract = "The advent of Large Language Models (LLMs) has revolutionized product recommenders, yet their susceptibility to adversarial manipulation poses critical challenges, particularly in real-world commercial applications. Our approach is the first one to tap into human psychological principles, seamlessly modifying product descriptions, making such manipulations hard to detect. In this work, we investigate cognitive biases as black-box adversarial strategies, drawing parallels between their effects on LLMs and human purchasing behavior. Through extensive evaluation across models of varying scale, we find that certain biases, such as social proof, consistently boost product recommendation rate and ranking, while others, like scarcity and exclusivity, surprisingly reduce visibility. Our results demonstrate that cognitive biases are deeply embedded in state-of-the-art LLMs, leading to highly unpredictable behavior in product recommendations and posing significant challenges for effective mitigation."
+}
+```
 
